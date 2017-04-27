@@ -1,0 +1,73 @@
+body, 
+html { 
+margin:0; 
+padding:0; 
+color:#FF9900; 
+background:#FFFFCC; 
+} 
+
+#wrapper {
+background-color: #FFFFFF; 
+font-family:arial;
+width: 750px;
+height: 500px;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -375px;
+margin-top: -250px;
+}
+
+#header {
+padding:5px 10px; 
+text-align: center;
+color: #FF9900;
+background: #FFFF66 url('lemon.jpg');
+}
+
+#left_sidebar {
+width: 230px;
+background-color: #FFFFFF;
+clear: both;
+float: left;
+padding:10px; 
+}
+
+#left_sidebar ul {
+margin: 0;
+padding: 0;
+}
+
+#left_sidebar ul li {
+list-style-type: none;
+display: block;
+color: #FF9900;
+text-align: center;
+}
+
+#left_sidebar li a {
+display: block;
+padding: 5px 10px;
+background-color: #FFFFCC;
+color: #FF9900;
+border-bottom: 1px solid #fff;
+text-decoration:none;
+}
+
+#left_sidebar li:hover a{
+background-color: #FFFF66;
+color: #FF9900;
+} 
+
+#main_column {
+padding:10px; 
+float: right;
+width: 480px;
+}
+
+p{
+font-size:12px;
+}
+
+
+
